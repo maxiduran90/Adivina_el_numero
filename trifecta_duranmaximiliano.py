@@ -17,6 +17,7 @@ def main():
         print("Entrada inválida. No es un número entero. El programa finalizará.")
         
 if __name__ == "__main__":
+    
     main()
 
 
