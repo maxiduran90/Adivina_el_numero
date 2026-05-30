@@ -1,24 +1,23 @@
-def main():
+def iniciar_programa():
     entrada = input("Ingresa un número entero: ")
-    
+
     try:
         # Intentamos convertir la entrada a un número entero
         numero = int(entrada)
         
-        # Verificamos si es distinto de cero
+        # Evaluamos el número
         if numero != 0:
-            print(f"¡Número {numero} ingresado! El programa ha iniciado.")
-            # Aquí va el resto de tu código principal
+            print(f"Número ingresado: {numero}. ¡El programa ha iniciado!")
+            # Aquí puedes agregar el resto de tu código
         else:
             print("Se ingresó un 0. El programa finalizará.")
             
     except ValueError:
-        # Esto captura el error si ingresan texto, decimales o caracteres especiales
+        # Esto captura el error si el usuario ingresa texto o un número decimal
         print("Entrada inválida. No es un número entero. El programa finalizará.")
-        
+
 if __name__ == "__main__":
-    
-    main()
+    iniciar_programa()
 
 
 
