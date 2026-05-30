@@ -20,7 +20,6 @@ if __name__ == "__main__":
     iniciar_programa()
 
 
-
 # Solicitamos la palabra o frase al usuario
 texto = input("Ingresa una palabra o frase: ")
 # Contamos los caracteres con la función len()
@@ -28,7 +27,6 @@ cantidad_caracteres = len(texto)
 
 # Mostramos el resultado en pantalla
 print(f"La cantidad de caracteres es: {cantidad_caracteres}")
-
 
 
 import math
@@ -45,7 +43,6 @@ else:
     resultado_paridad = "impar"
 
 print(f"El factorial de {n} es {factorial}, y es un número {resultado_paridad}.")
-
 
 
 def main():
@@ -66,4 +63,5 @@ def main():
         # Esto captura el error si ingresan texto, decimales o caracteres especiales
         print("Entrada inválida. No es un número entero. El programa finalizará.")
 
-if __name__ == "__main__":    main()
+if __name__ == "__main__":
+        iniciar_programa()
